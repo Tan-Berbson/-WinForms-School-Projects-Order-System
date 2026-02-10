@@ -32,5 +32,10 @@ namespace Meal_Order
                 MessageBox.Show("Plss Select Dine Type","Information",MessageBoxButtons.OK,MessageBoxIcon.Error);
             }
         }
+
+        private void panel3_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
