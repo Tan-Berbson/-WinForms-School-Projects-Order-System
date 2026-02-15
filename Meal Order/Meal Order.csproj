@@ -46,17 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="frmdashboard.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Form2.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form2.Designer.cs">
-      <DependentUpon>Form2.cs</DependentUpon>
+    <Compile Include="frmdashboard.Designer.cs">
+      <DependentUpon>frmdashboard.cs</DependentUpon>
     </Compile>
     <Compile Include="frmlogin.cs">
       <SubType>Form</SubType>
@@ -70,6 +64,12 @@
     <Compile Include="frmordersummary.Designer.cs">
       <DependentUpon>frmordersummary.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmreciept.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmreciept.Designer.cs">
+      <DependentUpon>frmreciept.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmRestaurantnfocs.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -82,13 +82,16 @@
     <Compile Include="frmsignup.Designer.cs">
       <DependentUpon>frmsignup.cs</DependentUpon>
     </Compile>
+    <Compile Include="Order Management.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Order Management.Designer.cs">
+      <DependentUpon>Order Management.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Form2.resx">
-      <DependentUpon>Form2.cs</DependentUpon>
+    <EmbeddedResource Include="frmdashboard.resx">
+      <DependentUpon>frmdashboard.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmlogin.resx">
       <DependentUpon>frmlogin.cs</DependentUpon>
@@ -96,11 +99,17 @@
     <EmbeddedResource Include="frmordersummary.resx">
       <DependentUpon>frmordersummary.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmreciept.resx">
+      <DependentUpon>frmreciept.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmRestaurantnfocs.resx">
       <DependentUpon>frmRestaurantnfocs.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmsignup.resx">
       <DependentUpon>frmsignup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Order Management.resx">
+      <DependentUpon>Order Management.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

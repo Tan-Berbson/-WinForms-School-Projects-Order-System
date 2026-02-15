@@ -42,7 +42,7 @@ namespace Meal_Order
             }
             ListViewItem ordersum = new ListViewItem(order);
             ordersum.SubItems.Add(checkbox);
-            listview_OrderSum.Items.Add(ordersum);
+          
            
 
 
@@ -50,8 +50,7 @@ namespace Meal_Order
 
         private void OrderForm_Load(object sender, EventArgs e)
         {
-            listview_OrderSum.Columns.Add("Order", 120);
-            listview_OrderSum.Columns.Add("Adds on", 120);
+            
         }
         private void clear()
         {
@@ -69,17 +68,7 @@ namespace Meal_Order
                 return;
             }
             
-            Form2 f = new Form2();
-            foreach(ListViewItem ord in listview_OrderSum.Items)
-            {
-                string order = ord.Text;
-                string addons = ord.SubItems[1].Text;
-                f.listBox1.Items.Add(order);
-                f.listBox1.Items.Add("Adds - on" + addons);
-
-            }
-            f.Show();
-            this.Hide();
+           
         }
     }
 }
